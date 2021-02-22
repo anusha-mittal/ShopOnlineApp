@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_page_background"
+    tools:context=".Activities.AdminAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/ivAddImage"
+        android:layout_width="315dp"
+        android:layout_height="181dp"
+        android:src="@drawable/select_product_image"
+        app:layout_constraintBottom_toTopOf="@+id/etProductName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp" />
+
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="324dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/button_border"
+        android:hint="Product Name"
+        app:layout_constraintBottom_toTopOf="@+id/etProductDescription"
+        app:layout_constraintEnd_toEndOf="@+id/etProductDescription"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/etProductPrice"
+        app:layout_constraintTop_toBottomOf="@+id/ivAddImage"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etProductDescription"
+        android:layout_width="323dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/button_border"
+        android:hint="Product Description"
+        app:layout_constraintBottom_toTopOf="@+id/etProductPrice"
+        app:layout_constraintEnd_toEndOf="@+id/etProductPrice"
+        app:layout_constraintStart_toStartOf="@+id/etProductPrice"
+        app:layout_constraintTop_toBottomOf="@+id/etProductName"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etProductPrice"
+        android:layout_width="327dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button_border"
+        android:hint="Product Price"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddProduct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etProductDescription"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="180dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="83dp"
+        android:background="@color/white"
+        android:text="Add product"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etProductPrice"
+        app:layout_constraintTop_toBottomOf="@+id/etProductPrice"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450101844564",
+    "firebase_url": "https://shoponline-app-9e523.firebaseio.com",
+    "project_id": "shoponline-app-9e523",
+    "storage_bucket": "shoponline-app-9e523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450101844564:android:94b5ac9b2e17f89055ebc1",
+        "android_client_info": {
+          "package_name": "com.example.shoponlineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450101844564-oi5t2fm4buf9jvq4sjbjkc21rodophna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoponlineapp",
+            "certificate_hash": "132fff9254e48b7e39f2c3f925aa889461d1fc36"
+          }
+        },
+        {
+          "client_id": "450101844564-00e232voeeq2u2hiq3pacjk2pd0rvrj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3G5aDDwqYge5lKDXKyY_gn98G0fo1QLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450101844564-00e232voeeq2u2hiq3pacjk2pd0rvrj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
